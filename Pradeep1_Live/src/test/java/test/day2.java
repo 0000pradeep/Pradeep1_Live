@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class day2 {
   public WebDriver driver;
-	@Test
+	@Test(priority=0)
   public void test() {
 		System.out.println("Test started");
 		System.setProperty("webdriver.chrome.driver", "C:\\Latest drivers servers\\chromedriver.exe");
@@ -21,4 +21,9 @@ public class day2 {
 		System.out.println("Test completed");
 		
   }
+	
+	@Test(priority=1)
+	  public void test1() {
+			driver.close();
+	  }
 }
