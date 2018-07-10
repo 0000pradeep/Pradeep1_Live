@@ -7,16 +7,8 @@ import org.testng.annotations.AfterTest;
 public class day1 {
   @Test
   public void test() {
-	  System.out.println("test");
+	  System.out.println("Day 1 Class");
   }
-  @BeforeTest
-  public void beforeTest() {
-	  System.out.println("before test");
-  }
-
-  @AfterTest
-  public void afterTest() {
-	  System.out.println("after test");
-  }
+ 
 
 }
