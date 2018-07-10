@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52" started-at="2018-07-09T15:14:18Z" finished-at="2018-07-09T15:14:18Z">
+  <suite name="Suite" duration-ms="149" started-at="2018-07-10T14:23:49Z" finished-at="2018-07-10T14:23:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52" started-at="2018-07-09T15:14:18Z" finished-at="2018-07-09T15:14:18Z">
-      <class name="test.day1">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.day1@4439f31e]" name="beforeTest" is-config="true" duration-ms="15" started-at="2018-07-09T20:44:18Z" finished-at="2018-07-09T20:44:18Z">
+    <test name="Test" duration-ms="149" started-at="2018-07-10T14:23:49Z" finished-at="2018-07-10T14:23:49Z">
+      <class name="test.day2">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:test.day2@d2cc05a]" name="beforesuite" is-config="true" duration-ms="16" started-at="2018-07-10T19:53:49Z" finished-at="2018-07-10T19:53:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:test.day1@4439f31e]" name="test" duration-ms="11" started-at="2018-07-09T20:44:18Z" finished-at="2018-07-09T20:44:18Z">
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:test.day2@d2cc05a]" name="beforemethod" is-config="true" duration-ms="9" started-at="2018-07-10T19:53:49Z" finished-at="2018-07-10T19:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:test.day2@d2cc05a]" name="test" duration-ms="15" started-at="2018-07-10T19:53:49Z" finished-at="2018-07-10T19:53:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.day1@4439f31e]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-09T20:44:18Z" finished-at="2018-07-09T20:44:18Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:test.day2@d2cc05a]" name="aftermethod" is-config="true" duration-ms="0" started-at="2018-07-10T19:53:49Z" finished-at="2018-07-10T19:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:test.day2@d2cc05a]" name="aftersuite" is-config="true" duration-ms="0" started-at="2018-07-10T19:53:50Z" finished-at="2018-07-10T19:53:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- test.day2 -->
+      <class name="test.day1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.day1@7823a2f9]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-07-10T19:53:49Z" finished-at="2018-07-10T19:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:test.day2@d2cc05a]" name="beforetest" is-config="true" duration-ms="0" started-at="2018-07-10T19:53:49Z" finished-at="2018-07-10T19:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:test.day1@7823a2f9]" name="test" duration-ms="19" started-at="2018-07-10T19:53:49Z" finished-at="2018-07-10T19:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:test.day2@d2cc05a]" name="aftertest" is-config="true" duration-ms="1" started-at="2018-07-10T19:53:49Z" finished-at="2018-07-10T19:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.day1@7823a2f9]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-10T19:53:49Z" finished-at="2018-07-10T19:53:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- test.day1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
